@@ -1,0 +1,19 @@
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\labLegkovWpf.csprojAssemblyReference.cache
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\MainWindow.g.cs
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\App.g.cs
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\labLegkovWpf_MarkupCompile.cache
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\labLegkovWpf_MarkupCompile.lref
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\bin\Debug\labLegkovWpf.exe.config
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\bin\Debug\labLegkovWpf.exe
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\bin\Debug\labLegkovWpf.pdb
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\MainWindow.baml
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\labLegkovWpf.g.resources
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\labLegkovWpf.Properties.Resources.resources
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\labLegkovWpf.csproj.GenerateResource.cache
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\labLegkovWpf.csproj.CoreCompileInputs.cache
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\labLegkovWpf.exe
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\labLegkovWpf.pdb
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\bin\Debug\Method Gauss.exe
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\bin\Debug\Method Gauss.pdb
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\bin\Debug\Method Gauss.exe.config
+C:\Users\Ilya1\source\repos\labLegkovWpf\labLegkovWpf\obj\Debug\labLegkovWpf.csproj.CopyComplete

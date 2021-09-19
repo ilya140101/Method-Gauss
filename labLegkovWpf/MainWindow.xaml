@@ -1,0 +1,46 @@
+﻿<Window x:Class="labLegkovWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:labLegkovWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="auto" Width="auto"  FontSize="15">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"></RowDefinition>
+            <RowDefinition Height="75*"></RowDefinition>
+            <RowDefinition Height="25*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"></ColumnDefinition>
+                <ColumnDefinition Width="50*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0"  x:Name="sizeGrid" HorizontalAlignment="Left" Height="69" Margin="10,28,0,0" VerticalAlignment="Top" Width="360">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*"></ColumnDefinition>
+                    <ColumnDefinition Width="10*"></ColumnDefinition>
+                    <ColumnDefinition Width="25*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <RadioButton x:Name="OnePass" Margin="10,0,0,0" Grid.Row="1" Grid.Column="2" Content="Один проход" VerticalAlignment="Center" GroupName="mode"></RadioButton>
+                <RadioButton x:Name="Standart" IsChecked="True" Margin="10,00,0,0" Grid.Row="0" Grid.Column="2" Content="Стандарт" VerticalAlignment="Center" GroupName="mode"></RadioButton>
+                <Label Grid.Row="0" Grid.Column="0" Content="n:" HorizontalAlignment="Center" ></Label>
+                <Label Grid.Row="1" Grid.Column="0" Content="m:" HorizontalAlignment="Center" ></Label>
+                <TextBox Grid.Row="0" Grid.Column="1" x:Name="nTextBox" PreviewTextInput="NumberValidationTextBox" VerticalContentAlignment="Center"></TextBox>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="mTextBox" PreviewTextInput="NumberValidationTextBox" VerticalContentAlignment="Center"></TextBox>
+            </Grid>
+            <Button Grid.Column="1" Height="50" Width="150" Content="Сгенерировать" Click="ButtonGenerate_Click" Margin="10,28,220,23"></Button>
+            <Button Grid.Column="1" Height="50" Width="150" Content="Решить" Click="Solve_Click" Margin="176,28,54,23"></Button>
+        </Grid>
+        <Grid Grid.Row="1"  HorizontalAlignment="Center" VerticalAlignment="Top" Name="matrixGrid"></Grid>
+        <Label x:Name="EnterMatrix" Content="Введите матрицу:" HorizontalAlignment="Left" Margin="23,21,0,0" Grid.Row="1" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label x:Name="EnterMinor" Content="Индексы столбцов:" HorizontalAlignment="Left" Grid.Row="2" Margin="23,20,0,45" RenderTransformOrigin="0.941,0.515" Visibility="Hidden"  />
+        <Grid Grid.Row="2"  HorizontalAlignment="Center" VerticalAlignment="Top" Name="minorGrid"></Grid>
+        <Button Content="Сбросить" Height="50" Width="150" HorizontalAlignment="Right" Margin="10,10" VerticalAlignment="Bottom" Grid.Row="2" Click="Button_Click" />
+    </Grid>
+</Window>
